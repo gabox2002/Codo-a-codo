@@ -18,7 +18,7 @@ body{
     display: flex;
     justify-content: space-between;
 
-    max-width: 992px; /*avaliable breakpoints Large, 576 768 992 1200 1400*/
+    max-width: 1200px; /*avaliable breakpoints Large, 576 768 992 1200 1400*/
     margin: 0 auto; /*para que quede centrado en el navegador*/
 }
 .nav-link{
@@ -61,7 +61,7 @@ body{
     display: none;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px){ /*para phone*/
     body{
         padding-top: 70px;
     }
