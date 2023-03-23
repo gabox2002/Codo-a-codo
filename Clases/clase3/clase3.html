@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/img/rosquilla.ico" type="image/x-icon" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Clase 3 - Multimedia</h1>
+    <h2>Imagenes</h2>
+    <h3>Imagenes desde la web</h3>
+    <!-- Crtl + llave que cierra se crea comentario -->
+    <!-- Ajuste proporcional ancho/alto -->
+    <img
+      src="https://imagenpng.com/wp-content/uploads/2015/09/imagenes-png.png"
+      alt="homero"
+      width="100"
+      height=""
+    />
+    <img
+      src="https://imagenpng.com/wp-content/uploads/2015/09/imagenes-png.png"
+      alt="homero"
+      width=""
+      height="50"
+    />
+
+    <!-- Deformar una imagen -->
+    <img
+      src="https://imagenpng.com/wp-content/uploads/2015/09/imagenes-png.png"
+      alt="homero"
+      width="200"
+      height="75"
+    />
+
+    <h3>Imagenes Locales</h3>
+    <img src="/img/homeropensativo.png" alt="homero pensativo" width="200" />
+    <a href="/img/homeropensativo.png" target="_blank">
+      <img src="/img/homeropensativo.png" alt="homero pensativo" width="200" />
+    </a>
+
+    <h3>Favicom</h3>
+    <!-- colocar el link de la linea 7, con la imagen en formato ICO, para que se muestre de icono en la ventana de muestra -->
+
+    <h3>Audio</h3>
+    <audio src="" controls></audio>
+
+    <h3>Video</h3>
+    <video src="" controls></video>
+
+    <h2>Iframe (contenido externo)</h2>
+    <h3>video youtube</h3>
+    <iframe
+      width="500"
+      height="300"
+      src="https://www.youtube.com/embed/7PPA1PpRzcQ"
+      title="VILLA CARLOS PAZ - Córdoba #8 🇦🇷☀️🚗🏞🚣 Qué hacer y visitar"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+    <h3>Mapa de Google</h3>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13135.122680165337!2d-58.399087786674535!3d-34.60970728653197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac336a09c01%3A0xc702e3bd05a794d3!2sPlaza%20del%20Congreso!5e0!3m2!1ses!2sar!4v1678816998303!5m2!1ses!2sar"
+      width="400"
+      height="300"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+    <h3>Canciones de Spotify</h3>
+    <iframe
+      style="border-radius: 12px"
+      src="https://open.spotify.com/embed/track/7qiZfU4dY1lWllzX7mPBI3?utm_source=generator"
+      width="80%"
+      height="100"
+      frameborder="0"
+      allowfullscreen=""
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      loading="lazy"
+    ></iframe>
+
+    <h3>contenido Externo</h3>
+    <iframe src="https://google.com" frameborder="1" width="800"></iframe>
+
+    <h3>Tablas Básicas</h3>
+    <table border="1">
+      <tr>
+        <th>Comisión</th>
+        <th>Horario</th>
+        <th>Profesor</th>
+      </tr>
+      <tr>
+        <td>23016</td>
+        <td>14:00 a 15:00</td>
+        <td>Juan Pablo</td>
+      </tr>
+      <tr>
+        <td>23017</td>
+        <td>16:00 a 18:00</td>
+        <td>Juan Pablo</td>
+      </tr>
+      <tr>
+        <td>23018</td>
+        <td>19:00 a 20:00</td>
+        <td>Juan Pablo</td>
+      </tr>
+    </table>
+
+    <h3>Colspan y Rowspan</h3>
+    <table border="1">
+      <tr>
+        <th colspan="3">Cursos Codo a codo 2023</th>
+      </tr>
+      <tr>
+        <th>Comisión</th>
+        <th>Horario</th>
+        <th>Profesor</th>
+      </tr>
+
+      <tr>
+        <td>23016</td>
+        <td>14:00 a 15:00</td>
+        <td rowspan="3">Juan Pablo</td>
+      </tr>
+      <tr>
+        <td>23017</td>
+        <td>16:00 a 18:00</td>
+      </tr>
+      <tr>
+        <td>23018</td>
+        <td>19:00 a 20:00</td>
+      </tr>
+    </table>
+  </body>
+</html>
