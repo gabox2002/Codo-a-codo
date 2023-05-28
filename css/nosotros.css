@@ -2,7 +2,7 @@
     margin: 0;
     box-sizing: border-box;
     padding: 0;
-    cursor: url("/img/patita_cursor20x20.png"), auto;
+    cursor: url("img/patita_cursor20x20.png"), auto;
     font-family: "Fira Sans Condensed", sans-serif;
 }
 body {
@@ -244,7 +244,7 @@ h2 {
     position: absolute;
     height: 96%;
     width: 96%;
-    background-image: url("/img/Nosotros/staff_anahi.png");
+    background-image: url("img/Nosotros/staff_anahi.png");
     background-size: cover;
     border-radius: 50%;
     box-shadow: inset 0 5px 10px #0000008c;
@@ -254,7 +254,7 @@ h2 {
     position: absolute;
     height: 96%;
     width: 96%;
-    background-image: url("/img/Nosotros/staff_drago.png");
+    background-image: url("img/Nosotros/staff_drago.png");
     background-size: cover;
     border-radius: 50%;
     box-shadow: inset 0 5px 10px #0000008c;
@@ -264,7 +264,7 @@ h2 {
     position: absolute;
     height: 96%;
     width: 96%;
-    background-image: url("/img/Nosotros/staff_alison.png");
+    background-image: url("img/Nosotros/staff_alison.png");
     background-size: cover;
     border-radius: 50%;
     box-shadow: inset 0 5px 10px #0000008c;
@@ -275,7 +275,7 @@ h2 {
     position: absolute;
     height: 96%;
     width: 96%;
-    background-image: url("/img/Nosotros/staff_arya.png");
+    background-image: url("img/Nosotros/staff_arya.png");
     background-size: cover;
     border-radius: 50%;
     box-shadow: inset 0 5px 10px #0000008c;
